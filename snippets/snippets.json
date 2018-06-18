@@ -1,0 +1,93 @@
+{
+    "mv-app": {
+        "prefix": "mv-app",
+        "body": [
+            "mv-app=\"$0\""
+        ],
+        "description": "Defines a Mavo app."
+    },
+    "mv-storage": {
+        "prefix": "mv-storage",
+        "body": [
+            "mv-storage=\"$0\""
+        ],
+        "description": "Tells Mavo where to store any data."
+    },
+    "mv-source": {
+        "prefix": "mv-source",
+        "body": [
+            "mv-source=\"$0\""
+        ],
+        "description": "Tells Mavo where to get data from."
+    },
+    "property": {
+        "prefix": "property",
+        "body": [
+            "property=\"$0\""
+        ],
+        "description": "The property attribute tells Mavo which elements are saved."
+    },
+    "mv-multiple": {
+        "prefix": "mv-multiple",
+        "body": [
+            "mv-multiple"
+        ],
+        "description": "Tells Mavo that this element can be multiplied."
+    },
+    "mv-edit": {
+        "prefix": "mv-edit",
+        "body": [
+            "mv-edit=\"$0\""
+        ],
+        "description": "The value of `mv-edit` is a CSS selector. If the CSS selector matches multiple elements on the page, the first one will be used."
+    },
+    "mv-edit-*": {
+        "prefix": "mv-edit-*",
+        "body": [
+            "mv-edit-$0=\"$1\""
+        ],
+        "description": "In some cases, you don’t want to entirely replace the element used for editing by default, but merely to set a few attributes on it."
+    },
+    "mv-default": {
+        "prefix": "mv-default",
+        "body": [
+            "mv-default=\"$0\""
+        ],
+        "description": "The `mv-default` attribute lets you set default values for properties that have no data yet."
+    },
+    "mv-attribute": {
+        "prefix": "mv-attribute",
+        "body": [
+            "mv-attribute=\"$0\""
+        ],
+        "description": "Mavo automatically assumes that the data each property element holds is stored either as its content or in a \"primary\" attribute, different per element type. Most of the time this works great, and you don't have to think about it. However, sometimes this heuristic will fail. In those cases, you can correct Mavo's prediction by using the `mv-attribute` attribute. Its value is either the name of the attribute that holds data, or none for no attribute (element contents)."
+    },
+    "mv-mode": {
+        "prefix": "mv-mode",
+        "body": [
+            "mv-mode=\"${1|edit,read|}\""
+        ],
+        "description": "Possible values: `edit` or `read`."
+    },
+    "mv-accepts": {
+        "prefix": "mv-accepts",
+        "body": [
+            "mv-accepts=\"$0\""
+        ],
+        "description": "The `mv-accepts` attribute takes a space-separated list of property names as its value and is specified on properties with `mv-multiple`."
+    },
+    "mv-order": {
+        "prefix": "mv-order",
+        "body": [
+            "mv-order=\"$0\""
+        ],
+        "description": "`mv-order=\"desc\"` does not sort the collection. Instead, it affects the behavior of the controls that add new items."
+    },
+    "mv-format": {
+        "prefix": "mv-format",
+        "body": [
+            "mv-format=\"$0\""
+        ],
+        "description": "By default, Mavo saves and reads data in JSON. While you don’t need to understand JSON to use Mavo, you may need to use a different file format at some point. This is exactly what `mv-format` is for."
+    }
+}

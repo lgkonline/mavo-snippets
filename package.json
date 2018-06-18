@@ -1,0 +1,25 @@
+{
+    "name": "mavo-snippets",
+    "displayName": "mavo-snippets",
+    "description": "Snippets for Mavo",
+    "version": "0.0.1",
+    "publisher": "lgk",
+    "engines": {
+        "vscode": "^1.24.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lgkonline/mavo-snippets"
+    },
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
