@@ -1,4 +1,4 @@
-# mavo-snippets
+# Snippets for Mavo
 
 This is an extension for Visual Studio Code with snippets for [Mavo](https://mavo.io).
 
