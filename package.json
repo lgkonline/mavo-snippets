@@ -2,7 +2,7 @@
     "name": "mavo-snippets",
     "displayName": "mavo-snippets",
     "description": "Snippets for Mavo",
-    "version": "0.0.2",
+    "version": "1.0.0",
     "publisher": "lgk",
     "engines": {
         "vscode": "^1.24.0"
