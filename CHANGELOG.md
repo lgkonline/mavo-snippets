@@ -3,5 +3,5 @@ All notable changes to the "mavo-snippets" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
-- Initial release
+## [Added]
+- Table that lists all available snippets into the README

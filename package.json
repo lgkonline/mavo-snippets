@@ -2,7 +2,7 @@
     "name": "mavo-snippets",
     "displayName": "mavo-snippets",
     "description": "Snippets for Mavo",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "lgk",
     "engines": {
         "vscode": "^1.24.0"
@@ -22,5 +22,11 @@
             }
         ]
     },
-    "icon": "images/icon.png"
+    "icon": "images/icon.png",
+    "devDependencies": {
+        "markdown-table": "^1.1.2"
+    },
+    "scripts": {
+        "start": "node ./createMarkdownTable"
+    }
 }
